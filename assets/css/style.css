@@ -1,0 +1,185 @@
+body {
+    color: black;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    background-image: url("/Users/naywood/Desktop/Basic-Portfolio/assets/images/qbkls.jpg");
+    background-repeat: repeat;
+}
+
+section, footer, header {
+  background-color: #fce1e0; 
+  border-radius: 10px;
+  border: 5px solid white;
+
+
+}
+
+
+header {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 0 20px 0 20px;
+    vertical-align: middle;
+    line-height: 70px;
+    float: left;
+}
+
+nav {
+    height: 70px;
+    width: 70%;
+    margin: -80px 0px 20px 0px;
+    line-height: 70px;
+    font-size: 16px;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+a:link {
+    text-decoration: none;
+      }
+  
+a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color:  #fce1e0; 
+    
+  }
+  
+a:active {
+    text-decoration: none;
+  }
+
+section {
+    float: left;
+    margin: 10px 0px 20px 0px;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    width: 960px;
+}
+
+article {
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+
+}
+
+
+p{
+    font-size: 16px;
+    width: 920px;
+    text-transform: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#hello{
+  font-size: 18px;
+}
+
+.textbox{
+  position: absolute;
+  margin: 30px 0 0 0;
+  background: white ;
+  width: 250px; 
+}
+.textbox2 {
+  position: absolute;
+  margin: 30px 0px 0px 265px;
+  background: white;
+  width: 250px;
+  text-align: center;
+}
+
+.textbox3 {
+  position: absolute;
+  margin: 30px 0px 0px 530px;
+  background: white;
+  width: 250px;
+  text-align: center;
+
+}
+
+.content {
+    min-height: calc(100vh - 70px);
+
+  }
+  
+.footer {
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+  }
+  
+  input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: pink;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    margin-top: 6px;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
