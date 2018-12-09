@@ -5,7 +5,8 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 300;
-    background-image: url("https://github.com/naywood/naywood.github.io/blob/master/assets/images/qbkls.jpg");
+    background-image: url("naywood.github.io/assets/images/qbkls.jpg");
+
     background-repeat: repeat;
 }
 
